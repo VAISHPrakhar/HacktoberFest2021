@@ -1,25 +1,24 @@
-#code to find the body mass index by Amitlpu-840
-height = float(input("Enter height in meters: "))
-weight = float(input("Enter weight in kg: "))
-
-
+# Code to print BMI of a User by VAISHprakhar
+weight = float(input("Enter your Weight in KGs: "))
+height = float(input("Enter your height in meters: "))
 bmi = weight / (height ** 2)
+if bmi<18.5 :
+    print(bmi)
+    print("You are underweight")
+elif bmi <24.9:
+    print(bmi)
+    print("You are HEALTHY !")
+elif bmi <29.9:
+    print(bmi)
+    print("You are OVERweight, Get in shape.")
+elif bmi <39.9:
+    print(bmi)
+    print("Your are Obese, Focus on your diet.")
+elif bmi<40.0:
+    print(bmi)
+    print("Your are severely Obese. Consult a Doctor")
 
 
-print("Your BMI is: {0} and you are: ".format(bmi), end="")
 
-# conditions
-if bmi < 16:
-    print("severely underweight")
 
-elif bmi >= 16 and bmi < 18.5:
-    print("underweight")
 
-elif bmi >= 18.5 and bmi < 25:
-    print("Healthy")
-
-elif bmi >= 25 and bmi < 30:
-    print("overweight")
-
-elif bmi >= 30:
-    print("severely overweight")
