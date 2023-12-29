@@ -1,3 +1,6 @@
+import scipy 
+
+
 t = int(input())
 while t>0:
     val = [int(a) for a in input().split()]
