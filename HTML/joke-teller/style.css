@@ -8,7 +8,7 @@ body {
     margin: 0px;
     min-height: 100vh;
     font-family: 'Oswald', sans-serif;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(28, 31, 28);
     color: white;
 }
 
@@ -23,8 +23,8 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 25%;
-    background-position-x: 20%;
-    background-position-y: 35%;
+    background-position-x: 25%;
+    background-position-y: 38%;
 }
 
 #button {
@@ -80,7 +80,7 @@ span {
     #button {
         font-size: 22px;
     }
-    .jokeContainer {
+    .jokeContainer{
         margin: 20px 10px;
         min-height: 150px;
         min-width: 300px;
